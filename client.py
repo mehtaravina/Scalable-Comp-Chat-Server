@@ -5,7 +5,7 @@ class Client:
     def __init__(self):
         self._utils = helper.ChatUtils()
         self._readBuffer = 4096
-        self._host = "10.62.0.115"    # Need to change this
+        self._host = "10.62.0.115"   
 
     def run(self):
         serverConn = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
