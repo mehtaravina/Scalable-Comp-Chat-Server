@@ -7,7 +7,7 @@ class Server:
         self._chatApp = helper.ChatApplication()
         self._listOfConnection = []
         self._readBuffer = 4096
-        self._host = "10.62.0.115"    # Need to change this
+        self._host = "10.62.0.115"    
 
     def run(self):
         listen_sock = self._utils.create_socket((self._host, self._utils.getPort()))
